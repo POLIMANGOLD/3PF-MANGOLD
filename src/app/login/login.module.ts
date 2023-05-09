@@ -9,6 +9,7 @@ import { ReactiveFormsModule } from '@angular/forms';
 import { PipesModule } from '../shared/pipes/pipes.module';
 import { DirectivasModule } from '../shared/directivas/directivas.module';
 import { MatTableModule } from '@angular/material/table';
+import { DashboardModule } from '../dashboard/dashboard.module';
 
 
 
@@ -25,7 +26,8 @@ import { MatTableModule } from '@angular/material/table';
     MatIconModule,
     PipesModule,
     DirectivasModule,
-    MatTableModule
+    MatTableModule,
+    DashboardModule
   ]
 })
 export class LoginModule { }

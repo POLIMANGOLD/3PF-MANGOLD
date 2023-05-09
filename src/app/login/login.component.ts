@@ -11,7 +11,7 @@ import { LoginFormValue, LoginServicioService } from './servicio/login.service';
   styleUrls: ['./login.component.scss']
 })
 export class LoginComponent {
-  emailControl = new FormControl('',[Validators.required]);
+  emailControl = new FormControl('', [Validators.required]);
   passwordControl = new FormControl('',[Validators.required]);
   loginForm = new FormGroup ({
     email: this.emailControl,
